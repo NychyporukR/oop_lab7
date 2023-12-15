@@ -19,7 +19,7 @@ public:
     std::vector<T> operator*(const std::vector<T>& vec) const;
 };
 
-// Визначення функцій класу потрібно включити в цей файл
+
 template <typename T>
 Matrix<T>::Matrix(int rows, int cols) : matrix(rows, std::vector<T>(cols)) {}
 
